@@ -18,7 +18,7 @@ body {
 
 /* About Next Level Section */
 
-#about-description {
+.about-description {
     float: right;
     width: 66%;
     flex-grow: 1;
@@ -32,18 +32,42 @@ footer {
     overflow: hidden;
     height: 200px;
     display: block;
+    clear: both;
 }
 
-#social-links {
+.social-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-links {
+    flex-wrap: wrap;
     font-size: 1.3rem;
     margin: 3px;
     padding: 10px;
+    list-style-type: none;
+    justify-content: space-around;
 }
 
-#social-links > li {
-    display: inline;
+.social-links i {
+    font-size: 4rem;
+    margin: 5px;
+    padding: 6px;
+    color: #7a2a35;
 }
 
+/* Media Query Width < 800px */
 
+@media all and (max-width: 800px) {
+    .social-links {
+      justify-content: space-around;
+    }
+  }
+  
+/* Media Query Screen Width < 500px */
 
-
+@media all and (max-width: 500px) {
+    .social-links {
+      flex-direction: column;
+    }
+  }
