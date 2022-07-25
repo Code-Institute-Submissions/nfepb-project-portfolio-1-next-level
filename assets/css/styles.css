@@ -1,1 +1,49 @@
-body { background-color:aquamarine;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body { 
+    background-color:#ffefe2;
+    font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header style */
+
+.banner-image {
+    background-image: url(assets/images/next-level-banner.jpeg) center center / cover no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+/* About Next Level Section */
+
+#about-description {
+    float: right;
+    width: 66%;
+    flex-grow: 1;
+}
+
+/* Footer style */
+
+footer {
+    background-color: #fe9d8a;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    display: block;
+}
+
+#social-links {
+    font-size: 1.3rem;
+    margin: 3px;
+    padding: 10px;
+}
+
+#social-links > li {
+    display: inline;
+}
+
+
+
+
