@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('/workspace/project-portfolio-1-next-level/node_modules/bootstrap/dist/css/bootstrap.min.css');
 
 body { 
     background-color:#ffefe2;
@@ -47,6 +48,17 @@ body {
     flex-grow: 1;
 }
 
+/* Testimonials section */
+
+#testimonials {
+    background-color: #c24f4c;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 /* Footer style */
 
 footer {
@@ -58,17 +70,17 @@ footer {
 }
 
 .social-wrapper {
-    display: flex;
     justify-content: space-evenly;
 }
 
 .social-links {
-    flex-wrap: wrap;
+    display: flex;
     font-size: 1.3rem;
     margin: 3px;
     padding: 10px;
     list-style-type: none;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .social-links i {
