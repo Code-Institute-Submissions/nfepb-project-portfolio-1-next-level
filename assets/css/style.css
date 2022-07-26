@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-@import url('/workspace/project-portfolio-1-next-level/node_modules/bootstrap/dist/css/bootstrap.min.css');
 
 body { 
     background-color:#ffefe2;
@@ -12,7 +11,7 @@ body {
 /* Banner style in header */
 
 #banner-image {
-    background: url(assets/images/next-level-banner.jpeg);
+    background: url('/assets/images/next-level-banner.jpeg');
     background-attachment: fixed;
     min-height: 200px;
     width: 100%;
@@ -50,7 +49,8 @@ body {
 
 /* Testimonials section */
 
-#testimonials {
+#testimonials-carousel {
+    clear: both;
     background-color: #c24f4c;
 }
 
