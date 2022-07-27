@@ -56,18 +56,34 @@ p {
 
 /* Containers */
 
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
 .container-fluid {
     padding: 7% 15%;
-    overflow: auto;
-    display: flex;
+    align-items: baseline;
 }
 
 /* About Next Level Section */
 
-.about-section {
-    float: right;
-    width: 66%;
-    flex-grow: 1;
+.div-profile-image {
+    align-self: center;
+    margin: auto;
+}
+
+.profile-image {
+    max-width: 200px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.about-description {
+    align-self: center;
+    flex-grow: 3;
 }
 
 .about-description p {
@@ -77,11 +93,18 @@ p {
     margin-bottom: 15px;
 }
 
+/* Specificities of Amelle */
+
+.specificities {
+    background-color: #fe9d8a;
+}
+
 /* Testimonials section */
 
 #testimonials {
     background-color: #c24f4c;
     clear: both;
+    text-align: center;
 }
 
 .testimonial-text {
@@ -90,10 +113,9 @@ p {
     line-height: 1.5;
 }
 
-.carousel-inner {
-    width: auto;
-
-}
+/* .carousel-text {
+    padding: auto 15%;
+} */
 
 /* Footer style */
 
