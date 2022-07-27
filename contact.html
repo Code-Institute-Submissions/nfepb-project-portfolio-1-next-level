@@ -2,8 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Meta site specific-->
     <meta
       name="description"
       content="Next Level helps individual improve the way they present themselves to the working world"
@@ -12,21 +14,35 @@
       name="keywords"
       content="coach, coaching, career coach, cv review, employability"
     />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>Next Level Career Coach Contact</title>
+
+    <!-- Google Fonts and stylesheets-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <title>Next Level Career Coach</title>
   </head>
+
   <body>
+    <!-- Header with menu -->
     <header>
+      <div id="banner-image"></div>
       <nav>
-        <ul>
+        <ul id="menu">
           <li>
             <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="testimonials.html">Testimonials</a>
-          </li>
-          <li>
-            <a href="fees.html">Fees</a>
           </li>
           <li>
             <a href="contact.html">Contact</a>
@@ -34,32 +50,94 @@
         </ul>
       </nav>
     </header>
+
+    <!-- Form -->
+    <section>
+      <div class="flex-container">
+        <section id="form-section"></section>
+        <form
+          class="get-in-touch-form"
+          method="POST"
+          action="https://formdump.codeinstitute.net/"
+        >
+          <h2>Get in touch</h2>
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="first_name"
+            class="text-input"
+            required
+          />
+          <label for="lname">Last Name</label>
+          <input
+            name="last_name"
+            type="text"
+            id="lname"
+            class="text-input"
+            required
+          />
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            name="email_address"
+            id="email"
+            class="text-input"
+            required
+          />
+          <label for="offer">Interested in offer:</label>
+          <select id="offer" name="offer_type" class="text-input">
+            <option value="intro">Introduction Call</option>
+            <option value="cv_review">CV Package</option>
+            <option value="linkedin_package">Linkedin Package</option>
+            <option value="combo_package">Combo Package</option>
+          </select>
+          <label class="form-label" for="date">Date</label>
+          <input id="date" type="date" name="booking-date" class="text-input" />
+          <input type="submit" value="Submit!" />
+        </form>
+      </div>
+    </section>
+
+    <section class="find-us-section"></section>
+
     <footer>
-      <ul>
-        <li>
-          <a
-            href="https://www.linkedin.com/company/next-lvl/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Linkedin page (opens in a new tab)"
-            ><i class="fa-brands fa-linkedin-in"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com/next.level.expert/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Instagram page (opens in a new tab)"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-        </li>
-      </ul>
+      <div class="social-wrapper">
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://www.linkedin.com/company/next-lvl/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Linkedin page (opens in a new tab)"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/next.level.expert/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Instagram page (opens in a new tab)"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+        <p>Copyright Ⓒ 2022 Next Level</p>
+      </div>
     </footer>
   </body>
   <script src="index.js"></script>
+
+  <!-- FontAwesome script -->
   <script
     src="https://kit.fontawesome.com/0c0089ca10.js"
+    crossorigin="anonymous"
+  ></script>
+  <!-- Bootstrap JavaScript Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"
   ></script>
 </html>
