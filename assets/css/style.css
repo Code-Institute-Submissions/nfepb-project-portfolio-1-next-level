@@ -3,10 +3,11 @@
 body { 
     background-color:#ffefe2;
     font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center justify;
 }
 
 /* Banner style in header */
@@ -14,7 +15,7 @@ body {
 #banner-image {
     background: url('/assets/images/next-level-banner.jpeg') no-repeat;
     background-attachment: fixed;
-    min-height: 100%;
+    min-height: 190px;
     width: 100%;
 }
 
@@ -42,7 +43,9 @@ body {
 
 /* Containers */
 
-
+.container-fluid {
+    padding: 7% 15%;
+}
 
 /* About Next Level Section */
 
@@ -54,9 +57,9 @@ body {
 
 /* Testimonials section */
 
-#testimonials-carousel {
-    clear: both;
+#testimonials {
     background-color: #c24f4c;
+    clear: both;
 }
 
 .testimonial-text {
