@@ -72,8 +72,8 @@ input[type=submit] {
 .flex-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     align-items: baseline;
+    justify-content: center;
 }
 
 .container-fluid {
@@ -83,7 +83,6 @@ input[type=submit] {
 /* About Next Level Section */
 
 .div-profile-image {
-    align-self: center;
     margin: auto;
 }
 
@@ -95,11 +94,11 @@ input[type=submit] {
 }
 
 .about-description {
-    align-self: center;
-    flex-grow: 3;
+
 }
 
 .about-description p {
+    size: 66%;
     margin: auto 10%;
     line-height: 1.5em;
     text-align: justify;
@@ -136,6 +135,10 @@ input[type=submit] {
 
 .specificities p {
     color: rgb(24, 24, 24);
+}
+
+.specificities i {
+    color: #1b01a2;
 }
 
 /* Testimonials section */
@@ -191,6 +194,10 @@ footer {
         justify-content: space-around;
     }
 
+    .div-profile-image {
+        padding: 25px;
+    }
+
     .specifities-list {
         flex-direction: column;
     }
@@ -217,6 +224,10 @@ footer {
 
     #menu li:last-of-type a {
         border-bottom: none;
+    }
+
+    .div-profile-image {
+        padding: 25px;
     }
 
     .specifities-list {
