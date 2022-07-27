@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body { 
     background-color:#ffefe2;
     font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
@@ -45,14 +51,23 @@ p {
 
 .container-fluid {
     padding: 7% 15%;
+    overflow: auto;
+    display: flex;
 }
 
 /* About Next Level Section */
 
-.about-description {
+.about-section {
     float: right;
     width: 66%;
     flex-grow: 1;
+}
+
+.about-description p {
+    margin: auto 10%;
+    line-height: 1.5em;
+    text-align: justify;
+    margin-bottom: 15px;
 }
 
 /* Testimonials section */
