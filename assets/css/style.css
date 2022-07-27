@@ -147,6 +147,7 @@ footer {
     overflow: hidden;
     height: 200px;
     clear: both;
+    text-align: center;
 }
 
 .social-wrapper {
