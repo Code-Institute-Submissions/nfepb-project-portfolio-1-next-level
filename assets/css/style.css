@@ -44,7 +44,7 @@ p {
 
 #menu a {
     display: block;
-    padding: 0 1.5em 1.5rem;
+    padding: 1em 1.5em 1.5rem;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -60,11 +60,11 @@ p {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: baseline;
 }
 
 .container-fluid {
     padding: 7% 15%;
-    align-items: baseline;
 }
 
 /* About Next Level Section */
@@ -99,6 +99,32 @@ p {
     background-color: #fe9d8a;
 }
 
+.specifities-list {
+    flex-direction: row;
+    text-align: center;
+    padding: 2%;
+}
+
+.specifities-list-left {
+    flex: 33%;
+}
+
+.specifities-list-middle {
+    flex: 33%;
+}
+
+.specifities-list-right {
+    flex: 33%;
+}
+
+.specifities-title {
+    font-size: 1.5rem;
+}
+
+.specificities p {
+    color: rgb(24, 24, 24);
+}
+
 /* Testimonials section */
 
 #testimonials {
@@ -112,10 +138,6 @@ p {
     font-size: 3rem;
     line-height: 1.5;
 }
-
-/* .carousel-text {
-    padding: auto 15%;
-} */
 
 /* Footer style */
 
@@ -154,6 +176,10 @@ footer {
     #menu {
         justify-content: space-around;
     }
+
+    .specifities-list {
+        flex-direction: column;
+    }
     
     .social-links {
       justify-content: space-around;
@@ -177,6 +203,10 @@ footer {
 
     #menu li:last-of-type a {
         border-bottom: none;
+    }
+
+    .specifities-list {
+        flex-direction: column;
     }
     
     .social-links {
