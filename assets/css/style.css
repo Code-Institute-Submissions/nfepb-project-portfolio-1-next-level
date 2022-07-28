@@ -158,21 +158,48 @@ input[type=submit]:hover {
 
 /* Service offering */
 
-.offering-left {
-    align-items: center;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin-bottom: 150px; 
+.offering-bg {
+    background-color: #fe9d8a;
+    padding: 8%;
 }
 
-.service-details-left {
-    
+.offering-left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 50px; 
+    padding: auto 25px;
+}
+
+.offering-right {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px; 
+    padding: auto 25px;
+}
+
+.service-title {
+    margin: auto 0 60px;
 }
 
 .service-image {
     border-radius: 50%;
     max-height: 200px;
+    order: -1;
+}
+
+.service-details-left {
+    text-align: left;
+    margin-left: 20px;
+    width: 50%;
+    margin: 2%;
+}
+
+.service-details-right {
+    text-align: right;
+    margin-right: 20px;
+    width: 50%;
+    margin: 2%;
 }
 
 /* Form style */
