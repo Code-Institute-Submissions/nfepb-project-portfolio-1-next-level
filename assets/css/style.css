@@ -13,7 +13,6 @@ body {
 
 h1, h2, h3 {
     text-align: center;
-    margin: 4rem 1rem;
     letter-spacing: 2px;
 }
 
@@ -72,8 +71,10 @@ input[type=submit]:hover {
 
 .flex-container {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    flex-flow: row;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 .container-fluid {
@@ -114,7 +115,7 @@ input[type=submit]:hover {
 }
 
 .specifities-list i {
-    font-size: 5em;
+    font-size: 3em;
     color: #1b01a2;
 }
 
@@ -206,6 +207,10 @@ footer {
         justify-content: space-around;
     }
 
+    .flex-container {
+        flex-wrap: row wrap;
+    }
+
     .div-profile-image {
         padding: 25px;
         flex: 1 auto;
@@ -241,6 +246,10 @@ footer {
 
     #menu li:last-of-type a {
         border-bottom: none;
+    }
+
+    .flex-container {
+        flex-wrap: column wrap;
     }
 
     .div-profile-image {
