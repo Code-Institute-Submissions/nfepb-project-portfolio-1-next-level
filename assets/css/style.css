@@ -73,18 +73,18 @@ input[type=submit]:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    gap: 25px;
+    align-items: baseline center;
+    gap: 40px;
 }
 
 .container-fluid {
-    padding: 5% 3%;
+    padding: 5% 5%;
 }
 
 /* About Next Level Section */
 
 .div-profile-image {
     margin: auto;
-    border: 2px solid red;
 }
 
 .profile-image {
@@ -103,10 +103,9 @@ input[type=submit]:hover {
     line-height: 1.5em;
     text-align: justify;
     margin-bottom: 15px;
-    border: red solid 2px;
 }
 
-/* Specificities of Amelle */
+/* Specificities of Next Level */
 
 .specificities {
     background-color: #fe9d8a;
@@ -137,14 +136,24 @@ input[type=submit]:hover {
 #testimonials {
     background-color: #c24f4c;
     clear: both;
-    text-align: center;
 }
 
 .testimonial-text {
     color: #ffefe2;
-    font-size: 3rem;
+    font-size: 1.3rem;
     line-height: 1.5;
 }
+
+.carousel-inner {
+    padding: 8%;
+}
+
+.testimonial-picture {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
 
 /* Form style */
 
