@@ -72,6 +72,8 @@ input[type=submit]:hover {
 .flex-container {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 25px;
 }
 
 .container-fluid {
@@ -92,6 +94,11 @@ input[type=submit]:hover {
     border-radius: 50%;
 }
 
+.about-description {
+    flex-basis: 400px;
+    flex-grow: 2;
+}
+
 .about-description p {
     line-height: 1.5em;
     text-align: justify;
@@ -103,12 +110,12 @@ input[type=submit]:hover {
 
 .specificities {
     background-color: #fe9d8a;
+    text-align: center;
 }
 
 .specifities-list {
-    flex-direction: row;
-    text-align: center;
     padding: 2%;
+    width: 200px;
 }
 
 .specifities-list i {
@@ -116,24 +123,13 @@ input[type=submit]:hover {
     color: #1b01a2;
 }
 
-.specifities-list-left {
-    flex: 33%;
-}
-
-.specifities-list-middle {
-    flex: 33%;
-}
-
-.specifities-list-right {
-    flex: 33%;
-}
-
 .specifities-title {
     font-size: 1.5rem;
+    padding-bottom: 1em;
 }
 
 .specificities p {
-    color: rgb(24, 24, 24);
+    color: rgb(67, 65, 65);
 }
 
 /* Testimonials section */
