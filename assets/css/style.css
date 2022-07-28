@@ -42,6 +42,7 @@ input[type=submit]:hover {
 #banner-image {
     min-height: 190px;
     width: 100%;
+    margin-bottom: -5px;
 }
 
 /* Menu style */
