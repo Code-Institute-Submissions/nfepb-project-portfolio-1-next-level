@@ -156,6 +156,25 @@ input[type=submit]:hover {
     margin: 20px;
 }
 
+/* Service offering */
+
+.offering-left {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 150px; 
+}
+
+.service-details-left {
+    
+}
+
+.service-image {
+    border-radius: 50%;
+    max-height: 200px;
+}
+
 /* Form style */
 
 .get-in-touch-form {
