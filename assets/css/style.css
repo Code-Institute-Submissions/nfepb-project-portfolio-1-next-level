@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
     text-align: center;
 }
 
@@ -86,6 +85,7 @@ input[type=submit]:hover {
 .div-profile-image {
     margin: auto;
     border: 2px solid red;
+    size: 25%;
 }
 
 .profile-image {
@@ -96,7 +96,7 @@ input[type=submit]:hover {
 }
 
 .about-description p {
-    size: 66%;
+    size: 75%;
     margin: auto 10%;
     line-height: 1.5em;
     text-align: justify;
@@ -117,6 +117,7 @@ input[type=submit]:hover {
 
 .specifities-list i {
     font-size: 1em;
+    color: #1b01a2;
 }
 
 .specifities-list-left {
@@ -139,10 +140,6 @@ input[type=submit]:hover {
     color: rgb(24, 24, 24);
 }
 
-.specificities i {
-    color: #1b01a2;
-}
-
 /* Testimonials section */
 
 #testimonials {
@@ -160,13 +157,11 @@ input[type=submit]:hover {
 /* Form style */
 
 #form-section {
-    float: left;
     width: 33%;
     text-align: left;
 }
 
 .location-section {
-    float: right;
     width: 66%;
     flex-grow: 1;
 }
