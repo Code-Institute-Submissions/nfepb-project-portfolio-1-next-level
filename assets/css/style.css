@@ -118,6 +118,10 @@ input[type=submit]:hover {
     padding: 2%;
 }
 
+.specifities-list i {
+    font-size: 1em;
+}
+
 .specifities-list-left {
     flex: 33%;
 }
@@ -164,8 +168,10 @@ input[type=submit]:hover {
     text-align: left;
 }
 
-.find-us-section {
+.location-section {
     float: right;
+    width: 66%;
+    flex-grow: 1;
 }
 
 /* Footer style */

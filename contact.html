@@ -32,6 +32,9 @@
       crossorigin="anonymous"
     />
 
+    <!-- Google Maps -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
     <title>Next Level Career Coach</title>
   </head>
 
@@ -102,7 +105,19 @@
       </div>
     </section>
 
-    <section class="find-us-section"></section>
+    <section class="location-section">
+      <h2>Where to find Next Level</h2>
+      <div id="map">
+        <iframe
+          width="600"
+          height="450"
+          style="border: 0"
+          loading="lazy"
+          allowfullscreen
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJL6wn6oAOZ0gRoHExl6nHAAo&key=..."
+        ></iframe>
+      </div>
+    </section>
 
     <footer>
       <div class="social-wrapper">
