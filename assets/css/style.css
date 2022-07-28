@@ -29,7 +29,8 @@ input[type=submit] {
     color: #ffefe2;
     border:0 none;
     cursor:pointer;
-    border-radius: 5px; }
+    border-radius: 5px; 
+}
 
 input[type=submit]:hover {
     background:#7a2a35; 
@@ -79,6 +80,7 @@ input[type=submit]:hover {
 
 .container-fluid {
     padding: 5% 5%;
+    max-width: 1200px;
 }
 
 /* About Next Level Section */
@@ -156,14 +158,43 @@ input[type=submit]:hover {
 
 /* Form style */
 
-#form-section {
-    width: 33%;
-    text-align: left;
+.get-in-touch-form {
+    background-color: #fe9d8a;
+    max-width: 300px;
+    flex-grow: 1;
 }
 
-.location-section {
-    width: 66%;
-    flex-grow: 1;
+.form-ul {
+    margin: auto 10% 0 10%;
+    max-width: 400px;
+    list-style: none;
+    padding: 0;
+}
+
+.form-ul li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-ul > li:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+.text-input {
+    background: white;
+    color: #1b01a2;
+    width: 100%;
+    height: 2em;
+    border: 1px solid #1b01a2;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #c24f4c;
+}
+
+.map-div {
+    max-width: 300px;
 }
 
 /* Footer style */
@@ -201,6 +232,15 @@ footer {
     color: #ffefe2;
 }
 
+/* Media Query Width < 1000px */
+
+@media all and (max-width: 800px) {
+
+    .get-in-touch-form {
+        background-color: transparent;
+    }
+}
+
 /* Media Query Width < 800px */
 
 @media all and (max-width: 800px) {
@@ -228,7 +268,7 @@ footer {
     .social-links {
       justify-content: space-around;
     }
-  }
+}
   
 /* Media Query Screen Width < 500px */
 
