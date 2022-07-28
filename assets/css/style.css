@@ -22,6 +22,8 @@ p {
     text-align: center justify;
 }
 
+/* Input button */
+
 input[type=submit] {
     padding:15px 15px; 
     background:#1b01a2; 
@@ -71,13 +73,11 @@ input[type=submit]:hover {
 .flex-container {
     display: flex;
     flex-flow: row wrap;
-    align-items: baseline;
-    justify-content: center;
-    overflow: auto;
+    justify-content: space-around;
 }
 
 .container-fluid {
-    padding: 7% 15%;
+    padding: 5% 8%;
 }
 
 /* About Next Level Section */
@@ -85,7 +85,6 @@ input[type=submit]:hover {
 .div-profile-image {
     margin: auto;
     border: 2px solid red;
-    size: 25%;
 }
 
 .profile-image {
@@ -96,11 +95,10 @@ input[type=submit]:hover {
 }
 
 .about-description p {
-    size: 75%;
-    margin: auto 10%;
     line-height: 1.5em;
     text-align: justify;
     margin-bottom: 15px;
+    border: red solid 2px;
 }
 
 /* Specificities of Amelle */
@@ -116,7 +114,7 @@ input[type=submit]:hover {
 }
 
 .specifities-list i {
-    font-size: 1em;
+    font-size: 5em;
     color: #1b01a2;
 }
 
@@ -173,7 +171,7 @@ footer {
     overflow: hidden;
     height: 200px;
     clear: both;
-    text-align: center;
+    color: #c24f4c;
 }
 
 .social-wrapper {
@@ -194,7 +192,11 @@ footer {
     font-size: 4rem;
     margin: 5px;
     padding: 6px;
-    color: #7a2a35;
+    color: #c24f4c;
+}
+
+.social-links i:hover {
+    color: #ffefe2;
 }
 
 /* Media Query Width < 800px */
@@ -206,6 +208,7 @@ footer {
 
     .div-profile-image {
         padding: 25px;
+        flex: 1 auto;
     }
 
     .specifities-list {
@@ -232,7 +235,7 @@ footer {
     #menu a {
         text-align: center; 
         padding: 10px;
-        border-top: 1px solid rgba(122, 42, 53, 255); 
+        border-top: 1px solid rgba(59, 39, 172, 0.719); 
         border-bottom: 1px solid rgba(122, 42, 53, 0.1); 
     }
 
@@ -242,6 +245,7 @@ footer {
 
     .div-profile-image {
         padding: 25px;
+        flex: 1 auto;
     }
 
     .specifities-list {
@@ -251,7 +255,6 @@ footer {
     #form-section {
         width: 100%;
     }
-    
     
     .social-links {
       flex-direction: column;
