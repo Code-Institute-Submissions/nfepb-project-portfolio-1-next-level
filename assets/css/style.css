@@ -85,6 +85,7 @@ input[type=submit]:hover {
 
 .div-profile-image {
     margin: auto;
+    border: 2px solid red;
 }
 
 .profile-image {
@@ -92,10 +93,6 @@ input[type=submit]:hover {
     height: auto;
     overflow: hidden;
     border-radius: 50%;
-}
-
-.about-description {
-
 }
 
 .about-description p {
