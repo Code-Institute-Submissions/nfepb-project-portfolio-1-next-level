@@ -71,14 +71,11 @@ input[type=submit]:hover {
 
 .flex-container {
     display: flex;
-    flex-flow: row;
-    gap: 15px;
-    justify-content: space-between;
-    align-items: baseline;
+    flex-flow: row wrap;
 }
 
 .container-fluid {
-    padding: 5% 8%;
+    padding: 5% 3%;
 }
 
 /* About Next Level Section */
