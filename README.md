@@ -109,7 +109,7 @@ The live website can be found here: [Next Level Mock Up Website](https://nfepb.g
 
   - Desktop
 
-[Lighthouse screenshot desktop]
+![Lighthouse screenshot desktop](assets/images/Lighthouse Desktop.png)
 
   - Accessibility
     - I confirmed that the colours have enough contrast and fonts chosen are easy to read, and all links, icons and images have descriptive text for screen readers running it through Lighthouse in Chrome DevTools.
