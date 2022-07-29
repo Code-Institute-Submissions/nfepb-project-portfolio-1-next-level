@@ -19,7 +19,7 @@ h1, h2, h3 {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center justify;
+    text-align: justify;
 }
 
 /* Input button */
@@ -74,7 +74,6 @@ input[type=submit]:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    align-items: baseline center;
     gap: 40px;
 }
 
@@ -173,14 +172,14 @@ input[type=submit]:hover {
     justify-content: space-between;
     flex-direction: row-reverse;
     margin-bottom: 50px; 
-    padding: auto 25px;
+    padding: 2.5% 25px;
 }
 
 .offering-right {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px; 
-    padding: auto 25px;
+    padding: 2.5% 25px;
 }
 
 .service-title {
@@ -301,7 +300,8 @@ footer {
     }
 
     .flex-container {
-        flex-wrap: row wrap;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .div-profile-image {
@@ -342,7 +342,8 @@ footer {
     }
 
     .flex-container {
-        flex-wrap: column wrap;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .div-profile-image {
