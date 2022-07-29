@@ -130,6 +130,7 @@ input[type=submit]:hover {
 
 .specificities p {
     color: rgb(67, 65, 65);
+    text-align: center;
 }
 
 /* Testimonials section */
@@ -256,6 +257,7 @@ footer {
     height: 200px;
     clear: both;
     color: #c24f4c;
+    text-align: center;
 }
 
 .social-wrapper {
