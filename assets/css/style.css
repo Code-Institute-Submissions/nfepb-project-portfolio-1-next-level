@@ -89,7 +89,7 @@ input[type=submit]:hover {
 }
 
 .profile-image {
-    max-width: 200px;
+    width: 200px;
     height: auto;
     overflow: hidden;
     border-radius: 50%;
