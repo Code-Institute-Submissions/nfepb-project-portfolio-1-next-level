@@ -13,7 +13,7 @@ IMAGE MOCKUP WEBSITES
   - Banner image that displays the colors used on the website and reflect the colors of the brand.
   - The slogan is watermarked in the image
 
-BANNER PICTURE
+![banner screenshot](assets/images/banner-screenshot.png)
 
 - **Navigation**
   - The navigation bar give the user clear view over what is available on this website. The user can easily access the Home, the About and the Contact pages from any of the pages of the website. 
