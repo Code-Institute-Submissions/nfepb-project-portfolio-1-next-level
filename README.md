@@ -31,7 +31,7 @@ The live website can be found here: [Next Level Mock Up Website](https://nfepb.g
   - A picture of the founder of the organisation.
   - The presentation section provides a brief description of the founder of the organisation and her background. It gives some information about Next Level and what the organisation has achieved this far.
   - The user understand what this website is about.
-  - A call to action button that will re-direct the user to the contact page.
+  - A call to action button ```submit``` that will re-direct the user to the contact page.
 
 ![presentation screenshot](assets/images/presentation-screenshot.png)
 
@@ -88,9 +88,71 @@ The live website can be found here: [Next Level Mock Up Website](https://nfepb.g
 
 ![map screenshot](assets/images/map-screenshot.png)
 
+## Testing
+- This page works in Chrome and Firefox (mobile and desktop versions).
+- This project is responsive on all screen sizes using dev tools.
+- The text of all sections is readable and easy to understand.
+- The form works, requires entries in the first 3 fields and the submit button works.
+
+### Validator Testing
+
+- **HTML**
+  - No errors were found when passing throught official [W3C Validator](https://validator.w3.org/#validate_by_input).
+
+- **CSS**
+  - No errors were found when passing throught official [W3C Validator](https://jigsaw.w3.org/css-validator/validator).
+
+- **Accessibility**
+  - Mobile
+
+[Lighthouse screenshot mobile]
+
+  - Desktop
+
+[Lighthouse screenshot desktop]
+
+  - Accessibility
+    - I confirmed that the colours have enough contrast and fonts chosen are easy to read, and all links, icons and images have descriptive text for screen readers running it through Lighthouse in Chrome DevTools.
+
+## Bugs & Errors
+
+### Solved
+
+- After deploying the website through Github pages, the rendering was not the same. I had to fix some of the code.
+- The padding on the carousel element on the home page was not taking the entire width of the page, leaving white space. 
+- When first passing through the HTML validator, an error was identified where an anchor ```<a>``` can not be used to wrap around an ```<input>``` button.
+  - This was fixed by changing the anchor to a ```<form>```
+- There were some closing tags that were not in order. I re-arranged them to pass the validator.
+- The CSS Validator did not recognise ```flex-wrap: row wrap``` and ```column wrap``` 
+  - I re-defined the ```flex-wrap``` and added the ```flex-direction```
+- After initially going through the Lighthouse testing, the images were not in the Next Gen format.
+  - Modified the format of the images
+- Resources were blocking the first paint of the home page.
+
+
+
 ## Technology used
 
 - [Font Awesome](https://fontawesome.com/) for the icons throughout the website
 - [Bootstrap](https://getbootstrap.com/docs/5.2/components/carousel/) for the carousel.
+- [Google Maps](https://developers.google.com/maps/documentation/javascript/adding-a-google-map) for the map location on the contact page
 - [Pixabay](https://pixabay.com/) for the images used for the testimony
 - [Technisi](http://techsini.com/) for the website rendering image
+- [W3schools](https://www.w3schools.com/) for the support of documentation.
+
+## Deployment
+
+- The project was deployed through **GitHub pages**, following the steps:
+- Go into the chosen repository
+- Navigate to the **Settings** tab in the GitHub rep
+- Select the **Pages** section in the sub-menu
+- Choose Master Branch from the source section
+- Click on **Deploy site**. After a few seconds, the URL of the deployed site will be accessible.
+
+The live website can be found at the [following location](https://nfepb.github.io/Portfolio-Project-1/)
+
+## Credits
+
+- My mentor, Ronan for his support and guidance through the project.
+- My family for their support.
+- My Mac, for not giving up on me in this heat.
