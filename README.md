@@ -129,7 +129,12 @@ The live website can be found here: [Next Level Mock Up Website](https://nfepb.g
   - Modified the format of the images
 - Resources were blocking the first paint of the home page.
 
+### To be solved
 
+- CSS does not get applied on the first section of the Index page
+- Image rendering
+- Content alignment in footer
+- Padding and margin on specificities of about page
 
 ## Technology used
 
