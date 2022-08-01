@@ -196,14 +196,14 @@ input[type=submit]:hover {
 .service-details-left {
     text-align: left;
     margin-left: 20px;
-    width: 50%;
+    width: 75%%;
     margin: 2%;
 }
 
 .service-details-right {
     text-align: right;
     margin-right: 20px;
-    width: 50%;
+    width: 75%;
     margin: 2%;
 }
 
@@ -279,7 +279,7 @@ footer p {
 
 .social-wrapper {
     justify-content: space-evenly;
-    width: 33%;
+    width: 50%;
 }
 
 .social-links {
