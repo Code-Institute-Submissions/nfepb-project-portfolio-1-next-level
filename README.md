@@ -19,7 +19,7 @@ The live website can be found here: [Next Level Mock Up Website](https://nfepb.g
 - [Bugs & Errors](#bugs--errors)
   - [Solved](#solved)
   - [To be solved](#to-be-solved)
-  - [Future Features]()
+  - [Future Features](#future-features)
 - [Technology used](#technology-used)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -158,7 +158,7 @@ The live website can be found here: [Next Level Mock Up Website](https://nfepb.g
 - For user experience, work further on the padding of the pages for more esthetically pleasing result.
 - Work on feedback from customer to work further on the colors.
 
-### Future features
+### Future features
 
 - Download brochure button to allow download of file
 - Appointment booking system
