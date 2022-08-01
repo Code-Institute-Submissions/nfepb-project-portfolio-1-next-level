@@ -41,11 +41,13 @@
   <body>
     <!-- Header with menu -->
     <header>
-      <div><img
-        id="banner-image"
-        src="assets/images/next-level-banner.webp"
-        alt="banner next level"
-      /></div>
+      <div>
+        <img
+          id="banner-image"
+          src="assets/images/next-level-banner.webp"
+          alt="banner next level"
+        />
+      </div>
       <nav>
         <ul id="menu">
           <li>
@@ -62,63 +64,81 @@
     </header>
 
     <!-- Main section -->
-      <div class="flex-container">
+    <div class="flex-container">
+      <!-- Form -->
+      <section class="get-in-touch-form">
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+          <h2>Get in touch</h2>
+          <ul class="form-ul">
+            <li>
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="first_name"
+                placeholder="Your name"
+                class="text-input"
+                required
+              />
+            </li>
+            <li>
+              <label for="lname">Last Name</label>
+              <input
+                name="last_name"
+                type="text"
+                id="lname"
+                placeholder="Your last name"
+                class="text-input"
+                required
+              />
+            </li>
+            <li>
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                name="email_address"
+                id="email"
+                placeholder="your_email@example.com"
+                class="text-input"
+                required
+              />
+            </li>
+            <li>
+              <label for="offer">Interested in offer:</label>
+              <select id="offer" name="offer_type" class="text-input">
+                <option value="intro">Introduction Call</option>
+                <option value="cv_review">CV Package</option>
+                <option value="linkedin_package">Linkedin Package</option>
+                <option value="combo_package">Combo Package</option>
+              </select>
+            </li>
+            <li>
+              <label class="form-label" for="date">Date</label>
+              <input
+                id="date"
+                type="date"
+                name="booking-date"
+                class="text-input"
+              />
+            </li>
+            <li><input type="submit" value="Submit!" /></li>
+          </ul>
+        </form>
+      </section>
 
-            <!-- Form -->
-        <section class="get-in-touch-form">
-        <form
-        method="POST"
-        action="https://formdump.codeinstitute.net/">
-        <h2>Get in touch</h2>
-        <ul class="form-ul">
-          <li><label for="fname">First Name</label>
-            <input
-              type="text"
-              id="fname"
-              name="first_name"
-              placeholder="Your name"
-              class="text-input"
-              required
-            /></li>
-          <li><label for="lname">Last Name</label>
-            <input
-              name="last_name"
-              type="text"
-              id="lname"
-              placeholder="Your last name"
-              class="text-input"
-              required
-            /></li>
-          <li> <label for="email">Email Address</label>
-            <input
-              type="email"
-              name="email_address"
-              id="email"
-              placeholder="your_email@example.com"
-              class="text-input"
-              required
-            /></li>
-          <li><label for="offer">Interested in offer:</label>
-            <select id="offer" name="offer_type" class="text-input">
-              <option value="intro">Introduction Call</option>
-              <option value="cv_review">CV Package</option>
-              <option value="linkedin_package">Linkedin Package</option>
-              <option value="combo_package">Combo Package</option>
-            </select></li>
-            <li><label class="form-label" for="date">Date</label>
-              <input id="date" type="date" name="booking-date" class="text-input" /></li>
-              <li><input type="submit" value="Submit!" /></li>
-        </ul>
-      </form>
-    </section>
-
-    <section class="container-fluid">
-      <h2>Where to find Next Level</h2>
-      <div id="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.4837341471275!2d-6.251112584245543!3d53.33459647997658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670ebd6c21d9cb%3A0x7864772b9e1014a5!2sLinkedIn%20Ireland!5e0!3m2!1sen!2sfr!4v1659014592661!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </section>
-      </div>
+      <section class="container-fluid">
+        <h2>Where to find Next Level</h2>
+        <div class="map-div">
+          <iframe
+            class="gmap"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.4837341471275!2d-6.251112584245543!3d53.33459647997658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670ebd6c21d9cb%3A0x7864772b9e1014a5!2sLinkedIn%20Ireland!5e0!3m2!1sen!2sfr!4v1659014592661!5m2!1sen!2sfr"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </div>
 
     <footer>
       <div class="social-wrapper">
