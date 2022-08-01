@@ -47,7 +47,6 @@ input[type=submit]:hover {
 /* Banner style in header */
 
 #banner-image {
-    min-height: 190px;
     width: 100%;
     margin-bottom: -5px;
 }
@@ -163,7 +162,6 @@ input[type=submit]:hover {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
-    height: 10%;
 }
 
 /* Service offering */
@@ -376,6 +374,10 @@ footer p {
         padding: 10px;
         border-top: 1px solid rgba(59, 39, 172, 0.719); 
         border-bottom: 1px solid rgba(122, 42, 53, 0.1); 
+    }
+
+    #menu li:first-of-type a {
+        border-top: none;
     }
 
     #menu li:last-of-type a {
