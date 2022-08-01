@@ -127,6 +127,7 @@ input[type=submit]:hover {
 
 .specificities p {
     color: rgb(67, 65, 65);
+    text-align: center;
 }
 
 /* Testimonials section */
@@ -210,9 +211,15 @@ input[type=submit]:hover {
 
 .get-in-touch-form {
     background-color: #fe9d8a;
-    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    min-width: 40%;
     flex-grow: 1;
     padding-right: 0;
+}
+
+.get-in-touch-form > form {
+    width: 80%;
 }
 
 .form-ul {
@@ -338,10 +345,6 @@ footer p {
         padding: 2.5% 25px;
     }
 
-    #form-section {
-        width: 100%;
-    }
-
     .gmap {
         width: 300px;
         height: 225px;
@@ -383,10 +386,6 @@ footer p {
 
     .specifities-list {
         flex-direction: column;
-    }
-
-    #form-section {
-        width: 100%;
     }
     
     .social-links {
