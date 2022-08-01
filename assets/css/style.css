@@ -167,6 +167,7 @@ input[type=submit]:hover {
 .offering-left {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row-reverse;
     margin-bottom: 25px; 
     padding: 2.5% 25px;
@@ -175,6 +176,7 @@ input[type=submit]:hover {
 .offering-right {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 25px; 
     padding: 2.5% 25px;
 }
@@ -310,6 +312,19 @@ footer {
 
     .specifities-list {
         flex-direction: column;
+    }
+
+    .offering-left {
+        flex-direction: column-reverse;
+        margin-bottom: 25px; 
+        padding: 2.5% 25px;
+    }
+    
+    .offering-right {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-bottom: 25px; 
+        padding: 2.5% 25px;
     }
 
     #form-section {
