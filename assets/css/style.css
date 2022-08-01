@@ -119,6 +119,8 @@ input[type=submit]:hover {
 
 .specificities-list {
     padding: 2%;
+    width: 30%;
+    align-self: center;
 }
 
 .specificities-list i {
@@ -336,6 +338,8 @@ footer p {
 
     .specifities-list {
         flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
     }
 
     .offering-left {
