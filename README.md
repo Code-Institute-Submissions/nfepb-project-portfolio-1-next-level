@@ -68,6 +68,7 @@ The live website can be found here: [Next Level Mock Up Website](https://nfepb.g
 - **Services Offering Section**
   - This section offers a brief description of the different services that Next Level can offer to its customers. 
   - An image is displayed with each description.
+  - Each image works as a link to bring the user to the Contact Page.
 
 ![service offering screenshot](assets/images/service-offering-screenshot.png)
 
@@ -85,6 +86,7 @@ The live website can be found here: [Next Level Mock Up Website](https://nfepb.g
 
 - **Map Section**
   - An iFrame displaying the (fictitious) location of the organisation allows the user to find the location of the organisation.
+  - The map size is adjusted based on the screen size.
 
 ![map screenshot](assets/images/map-screenshot.png)
 
@@ -127,14 +129,20 @@ The live website can be found here: [Next Level Mock Up Website](https://nfepb.g
   - I re-defined the ```flex-wrap``` and added the ```flex-direction```
 - After initially going through the Lighthouse testing, the images were not in the Next Gen format.
   - Modified the format of the images
-- Resources were blocking the first paint of the home page.
+- Resources were blocking the first background color of the home page and font did not apply.
+  - Re-arranged the CSS imports to have the project CSS as last.
+- Image rendering not up to best practices (Lighthouse)
+  - Cropped images and modified format to WEBP.
 
 ### To be solved
 
-- CSS does not get applied on the first section of the Index page
-- Image rendering
-- Content alignment in footer
-- Padding and margin on specificities of about page
+- For user experience, work further on the padding of the pages for more esthetically pleasing result.
+- Work on feedback from customer to work further on the colors. 
+
+### Future features
+
+- Download brochure button to allow download of file
+- Appointment booking system
 
 ## Technology used
 
