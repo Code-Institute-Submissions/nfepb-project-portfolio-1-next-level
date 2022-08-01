@@ -264,15 +264,20 @@ footer {
     min-height: 200px;
     clear: both;
     color: #c24f4c;
+}
+
+footer p {
     text-align: center;
 }
 
 .social-wrapper {
     justify-content: space-evenly;
+    width: 33%;
 }
 
 .social-links {
     display: flex;
+    justify-content: space-around;
     font-size: 1.3rem;
     margin: 3px;
     padding: 10px;
