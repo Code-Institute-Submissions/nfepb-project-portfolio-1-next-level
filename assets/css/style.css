@@ -110,6 +110,7 @@ input[type=submit]:hover {
 .specificities {
     background-color: #fe9d8a;
     text-align: center;
+    align-items: center;
 }
 
 .specifities-list {
